@@ -1,0 +1,304 @@
+.two-column-layout {
+    display: flex;
+    flex-direction: row;
+   
+    color: aliceblue;
+    
+  }
+  
+.left{
+    height: 100%;
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.right{
+    height: 100%;
+    width:50%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.for{
+    margin-top: 4%;
+    width: 34rem;
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(122, 121, 121, 0.2);
+   
+   
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(241, 245, 5, 0.91);
+
+}
+table{
+    font-size: 14px;
+    color: rgb(228, 228, 228);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    letter-spacing: 3px;
+    background-color: rgb(50, 49, 49);
+    border: 1px solid rgba(241, 245, 5, 0.91);
+}
+th{
+    background-color: rgb(56, 55, 55);
+}
+table:hover{
+    font-size: 14px;  
+    color: rgb(122, 120, 120);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    letter-spacing: 3px;
+}
+.input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+   
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+input::placeholder{
+    color: rgb(159, 159, 82);
+}
+.buttonclick{
+    margin-left: 5%;
+    position: relative;
+    border: none;
+    color:#fffdfd;
+    font-size:10px;
+    letter-spacing: 2px;
+    width: 20em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background-size: 300%;
+    background-color: hsl(0, 0%, 46%);
+    text-transform: uppercase;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    text-decoration: none;
+   
+    
+    border: 2px solid hwb(61 18% 0%);
+    border-radius: 8px;
+}
+@keyframes pulse{
+  from{
+    box-shadow: 
+    0 0 25px hsl(63, 93%, 58%),
+    0 0 50px #2cd9ff;
+  }
+}
+.buttonclick:focus{
+  animation: pulse 0.5s ease-in-out;
+}
+.buttonsub{
+    margin-left: 40%;
+    position: relative;
+    border: none;
+    color:#fffdfd;
+    font-size:10px;
+    letter-spacing: 2px;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background-size: 300%;
+    background-color: hsl(0, 0%, 46%);
+    text-transform: uppercase;
+    cursor: pointer;
+    
+    display: inline-block;
+    text-decoration: none;
+   
+    
+    border: 2px solid hwb(61 18% 0%);
+    border-radius: 8px;
+}
+@keyframes pulse{
+  from{
+    box-shadow: 
+    0 0 25px hsl(63, 93%, 58%),
+    0 0 50px #2cd9ff;
+  }
+}
+.buttonsub:focus{
+  animation: pulse 0.5s ease-in-out;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(122, 120, 120);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    letter-spacing: 3px;
+}
+.buttonoption{
+    
+    position: relative;
+    border: none;
+    color:#f1fd43;
+    font-size:10px;
+    letter-spacing: 2px;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background-size: 300%;
+    background-color: hsl(0, 0%, 46%);
+    text-transform: uppercase;
+    cursor: pointer;
+    
+    display: inline-block;
+    text-decoration: none;
+   
+    
+    border: 2px solid hwb(61 18% 0%);
+    border-radius: 8px;
+}
+@keyframes pulse{
+  from{
+    box-shadow: 
+    0 0 25px hsl(63, 93%, 58%),
+    0 0 50px #2cd9ff;
+  }
+}
+.buttonsub:focus{
+  animation: pulse 0.5s ease-in-out;
+}
+.buttoninstall{
+  
+  
+  position: relative;
+  border: none;
+  color:#fffdfd;
+  font-size:14px;
+  letter-spacing: 2px;
+  width: 11em;
+  height: 7em;
+  line-height: 2em;
+  text-align: center;
+  background-size: 300%;
+  background-color: hsl(0, 0%, 46%);
+  text-transform: uppercase;
+  cursor: pointer;
+  
+  display: inline-block;
+  text-decoration: none;
+ 
+  
+  border: 2px solid hwb(61 18% 0%);
+  border-radius: 8px;
+}
+@keyframes pulse{
+from{
+  box-shadow: 
+  0 0 25px hsl(63, 93%, 58%),
+  0 0 50px #2cd9ff;
+}
+}
+.buttoninstall:focus{
+animation: pulse 0.5s ease-in-out;
+}
+.buttonsingle
+  {
+  
+  
+    position: relative;
+    border: none;
+    color:#fffdfd;
+    font-size:10px;
+    letter-spacing: 2px;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background-size: 300%;
+    background-color: hsl(0, 0%, 46%);
+    text-transform: uppercase;
+    cursor: pointer;
+    
+    display: inline-block;
+    text-decoration: none;
+   
+    
+    border: 2px solid hwb(61 18% 0%);
+    border-radius: 8px;
+  }
+  @keyframes pulse{
+  from{
+    box-shadow: 
+    0 0 25px hsl(63, 93%, 58%),
+    0 0 50px #2cd9ff;
+  }
+  }
+  .buttonsingle:focus{
+  animation: pulse 0.5s ease-in-out;
+  }
+  .buttonlist{
+    width: 160px;
+    height: 40px;
+    margin-top: 75px;
+    cursor: pointer;
+    border-style: none;
+    background-color: hsl(0, 0%, 46%);
+    color:#fff;
+    font-size: 15px;
+    outline: none;
+    box-shadow: 0px 2px 3px rgba(0,0,0,.4);
+    transition: all .5s ease-in-out;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+    display: inline-block;
+    text-decoration: none;
+   
+    
+    border: 2px solid hwb(61 18% 0%);
+    border-radius: 8px;
+    
+}
+.buttonlist:hover{
+    transform: scale(.95) translateX(-5px);
+    transition: all .5s ease-in-out;
+    font-family: cursive;
+}
+table {
+    
+    border: 1px solid rgba(241, 245, 5, 0.91);
+    width: 45rem;
+    height: 56rem;
+    
+  }
+    
+  th {
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    font-size: 40px;
+    text-align: center;
+    color: rgb(230, 230, 230);
+    letter-spacing: 3px;
+    font: italic small-caps bold 20px/30px Georgia, serif;
+   
+    background-size: cover;
+   
+  }
+    
+  td {
+    
+    margin-left: 5px;
+    border-bottom: 1px solid rgba(207, 197, 197, 0.5);
+    font-size: 10px;
+    text-align: left;
+    
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font: italic small-caps bold 12px/30px Georgia, serif;
+     max-height: 10px;
+    backdrop-filter: blur(5px);
+
+  }
